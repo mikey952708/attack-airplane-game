@@ -28,7 +28,7 @@ update(dt) {
 
 #### 2.Bullet模块（子弹）
 
-2.1将bullet图片拖入层级管理器，加上刚性碰撞模块（box.Collider）
+2.1将bullet图片拖入层级管理器，加上碰撞模块（box.Collider）
 
 2.2将bullet模块拖入资源管理器，生成预制体（Prefub）拖入层级管理器，删除原模块
 
@@ -58,7 +58,7 @@ export default class bulletControl extends cc.Component {
 
 #### 3.Player模块（飞机）
 
-将player的图片拖入场景，给其加上刚性碰撞模块
+将player的图片拖入场景，给其加上碰撞模块
 
 在代码中导入bullet预制体
 
